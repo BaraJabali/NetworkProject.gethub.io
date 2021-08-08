@@ -45,7 +45,10 @@ header{
 #headerList li{
     padding:10px;
 }
-
+header li a{
+    color: #000;
+    text-decoration: none;
+   }
 body {
     background-color:#F6FDED;
     margin: 0 0 0 0;
@@ -74,18 +77,55 @@ body {
     font-size: 27px;
     
     }
-a{
-    color: #000;
-    text-decoration: none;
-   }
+
+
+
+
+
+
+
+
 #info{
        width: 100%;
        background-color: #adcbe3 ;
        margin-top: 0;
-    border: 1px solid #adcbe3;
-   }
+       border: 1px solid #adcbe3;
+}
+#threeCards{
+    display: flex;
+    justify-content: space-evenly;
 
-  
+}
+
+.individualInfo{
+    width:25%;
+  border-radius: 20px;
+    text-align: center;
+    background-color: azure;
+}
+
+.individualInfo ul li{
+    width: fit-content;
+    justify-content: flex-start;
+    justify-items: center;
+
+}
+
+li img{
+    margin: 0 5px 0 0;
+
+}
+
+/*
+dont touch
+*/
+#info p,h1{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}  
+
+/*
 .individualInfo{
     width: 70%;
     margin-left: 15%;
@@ -97,12 +137,16 @@ a{
     margin-left: 10%;
 
    }
+*/
 
-.Hobies li{
-    align-items: center;
-    justify-content: center;
+
+
+
+#another h1,h2{
+    text-align: center;
+    
 }
-li img{
-    margin: 0 5px 0 0;
-
+#another img{
+    width:60%;
+    margin-left: 20%;
 }
