@@ -2,23 +2,7 @@
     box-sizing: border-box;
 
 }
-span{
-    color: green;
-}
-h1{
-text-align: center;
-align-items: center;
-}
-#Welcome{
-    height: 720px;
-    width: 100%;    
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701554392.jpg);
-    background-repeat: no-repeat;
-    
-}
+
 ul{
     list-style:none;
 
@@ -49,10 +33,46 @@ header li a{
     color: #000;
     text-decoration: none;
    }
+
+/*
+
+the end of the header part
+
+
+*/
 body {
     background-color:#F6FDED;
     margin: 0 0 0 0;
    }
+
+
+
+   span{
+    color: green;
+}
+h1{
+text-align: center;
+align-items: center;
+}
+#Welcome{
+    height: 720px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    
+}
+/*
+
+the end of the welcome part
+
+
+*/
+
+
+
 
 #GroupNames{
        display: flex;
@@ -61,7 +81,7 @@ body {
 
        height: 320px;
     width: 100%;    
-    background-image: url(https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80);
+    background-image: url(background2.jpg);
     background-repeat: no-repeat;
     color:rgb(23, 103, 165);
     font-family: 'Tangerine', serif;
@@ -80,7 +100,9 @@ body {
 
 
 
-
+/*
+the end of the groupname part
+*/
 
 
 
@@ -116,28 +138,19 @@ li img{
 
 }
 
-/*
-dont touch
-*/
+
 #info p,h1{
     text-align: center;
     justify-content: center;
     width: 100%;
 }  
 
-/*
-.individualInfo{
-    width: 70%;
-    margin-left: 15%;
-    border-radius: 20px;
+.individualInfo>img{
+    height: fit-content;
     border: 1px solid black;
-    background-color: #e7eff6;
-   }
-   .individualInfo h3,ul{
-    margin-left: 10%;
+    border-radius: 50%;
+}
 
-   }
-*/
 
 
 
